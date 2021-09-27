@@ -9,4 +9,4 @@
 * Адаптивная вёрстка;
 * Организация системы классов и файловой структуры по [методологии БЭМ](https://ru.bem.info/methodology/quick-start/).
 
-Проект представлен на [GitHub Pages]()
+Проект представлен на [GitHub Pages](https://ev-cherkovskiy.github.io/russian-travel/)
