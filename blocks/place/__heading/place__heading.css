@@ -1,5 +1,5 @@
 .place__heading {
-    text-rendering: optimizeLegibility; 
+    text-rendering: optimizeLegibility;
     grid-area: heading;
     font-size: 72px;
     line-height: 1.06;
