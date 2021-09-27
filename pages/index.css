@@ -22,7 +22,9 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__line/intro__line.css);
-@import url(../blocks/intro/__line/_style/intro__line_style_bold.css);
+@import url(../blocks/intro/__line-text/intro__line-text.css);
+@import url(../blocks/intro/__line-text/_style/intro__line-text_style_bold.css);
+
 
 @import url(../blocks/photos/photos.css);
 @import url(../blocks/photos/__container/photos__container.css);
