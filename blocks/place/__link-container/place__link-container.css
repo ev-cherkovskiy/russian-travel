@@ -1,0 +1,11 @@
+.place__link-container {
+    grid-area: link;
+    align-self: end;
+}
+
+@media screen and (max-width: 425px) {
+    .place__link-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

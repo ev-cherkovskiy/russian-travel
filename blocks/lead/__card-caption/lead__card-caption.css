@@ -1,0 +1,21 @@
+.lead__card-caption {
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__card-caption {
+        padding-left: 3.125%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__card-caption {
+        padding-left: 5%;
+    }
+}

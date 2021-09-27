@@ -1,0 +1,7 @@
+.baikal__container {
+    position: absolute;
+    align-self: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}

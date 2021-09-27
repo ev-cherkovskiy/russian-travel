@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    width: 90%;
+    padding-top: 28px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+    .header {
+        width: 92.5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        width: 90.62%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 93.75%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        padding-top: 16px;
+        width: 90%;
+    }
+}

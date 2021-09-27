@@ -1,0 +1,26 @@
+.footer__link {
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 18px;
+    transition: opacity .3s ease-out;
+}
+
+.footer__link:last-of-type {
+    padding-right: 0;
+}
+
+.footer__link:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 580px) {
+    .footer__link {
+        display: block;
+        padding-bottom: 32px;
+        padding-right: 0;
+    }
+
+    .footer__link:last-of-type {
+        padding-bottom: 48px;
+    }
+}

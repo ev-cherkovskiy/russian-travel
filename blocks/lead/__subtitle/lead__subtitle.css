@@ -1,0 +1,51 @@
+.lead__subtitle {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+
+    width: 640px; /*здесь оставим значение в абсолютных величинах, чтоб соблюсти перенос слов;
+                  при более малых разрешениях используются относительные величины*/
+    padding-top: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__subtitle {
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    .lead__subtitle {
+        font-size: 24px;
+        line-height: 1.21;
+        padding-top: 1em;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .lead__subtitle {
+        font-size: 20px;
+        line-height: 1.22;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .lead__subtitle {
+        font-size: 18px;
+        line-height: 1.23;
+        width: 72%;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .lead__subtitle {
+        width: 70%;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}

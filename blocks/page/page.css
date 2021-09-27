@@ -1,0 +1,15 @@
+.page {
+    background-color: #2a2c2f;
+    font-family: 'Inter';
+    color: #ffffff;
+
+    /*Введём ограничение на ширину - 320px. Это минимальная ширина по данным screensizemap.com*/
+    min-width: 320px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    outline: 1px solid red;
+}

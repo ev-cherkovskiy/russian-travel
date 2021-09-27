@@ -1,0 +1,29 @@
+.baikal__heading {
+    text-rendering: optimizeLegibility; 
+    margin: 0;
+    font-size: 72px;
+    line-height: 1.06;
+    font-weight: 900;
+    text-align: center;
+    
+    width: 560px; /*здесь оставим точное начение, чтоб текст переносился, как в макете*/
+    padding-bottom: 32px;
+}
+
+@media screen and (max-width: 590px) {
+    .baikal__heading {
+        font-size: 52px;
+        line-height: 1.08;
+        width: 400px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .baikal__heading {
+        font-size: 32px;
+        line-height: 1.09;
+        width: 288px;
+        padding-bottom: 16px;
+    }
+}

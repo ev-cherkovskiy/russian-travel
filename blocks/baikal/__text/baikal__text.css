@@ -1,0 +1,25 @@
+.baikal__text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.22;
+    font-weight: 400;
+    text-align: center;
+
+    width: 360px; /*здесь оставим точное начение, чтоб текст переносился, как в макете*/
+}
+
+@media screen and (max-width: 590px) {
+    .baikal__text {
+        font-size: 16px;
+        line-height: 1.18;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .baikal__text {
+        font-size: 14px;
+        line-height: 1.14;
+        width: 288px;
+    }
+}
