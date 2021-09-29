@@ -5,13 +5,7 @@
     text-align: right;
 }
 
-@media screen and (max-width: 830px) {
-    .footer__copyright {
-        padding-top: 30px;
-    }
-}
-
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 425px) {
     .footer__copyright {
         line-height: 1;
         padding-top: 0;

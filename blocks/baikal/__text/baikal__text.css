@@ -6,6 +6,8 @@
     text-align: center;
 
     width: 360px; /*здесь оставим точное начение, чтоб текст переносился, как в макете*/
+    position: relative;
+    z-index: 1;
 }
 
 @media screen and (max-width: 590px) {

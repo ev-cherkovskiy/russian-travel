@@ -1,9 +1,0 @@
-.baikal__pic {
-    object-fit: cover;
-    opacity: .8;
-    transition: opacity .3s ease-out;
-}
-
-.baikal__pic:hover {
-    opacity: .3;
-}

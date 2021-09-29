@@ -8,20 +8,17 @@
     padding: 92px 0 23px 0;
 }
 
-/*Чтобы строка с ссылками не разбивалась на несколько строк при уменьшении ширины, расположим её в колонку над элементом с авторством.
-При ширине 768px будет отличие от макета, но оно неизбежно - либо менять размер шрифта, либо положение элементов. 
-В первом случае шрифт должен быть очень маленьким, поэтому выбрал второе.*/
-@media screen and (max-width: 830px) {
-    .footer {
-        flex-flow: column nowrap;
-        align-items: flex-start;
-        padding: 64px 0 24px 0;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .footer {
         width: calc(100% - 2*24px);
         padding-top: 88px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        padding: 64px 0 24px 0;
     }
 }

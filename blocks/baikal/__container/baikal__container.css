@@ -1,7 +1,22 @@
 .baikal__container {
-    position: absolute;
-    align-self: center;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.baikal__container::after {
+    content: '';
+    background-color: #2a2c2f;
+    position: absolute;
+    opacity: .3;
+    inset: 0;
+    z-index: 0;
+    transition: opacity .3s ease-out;
+}
+
+.baikal__container:hover::after {
+    opacity: .8;
 }

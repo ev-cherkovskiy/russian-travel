@@ -3,7 +3,7 @@
     font-size: 18px;
     line-height: 1.22;
     font-weight: 400px;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     transition: opacity .3s ease-out;
 }
 

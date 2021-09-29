@@ -16,12 +16,12 @@
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Логотип проекта">
       <div class="header__lang-links">
-          <p class="header__lang-link header__lang-link_type_underline" lang="en">
+          <a class="header__lang-link header__lang-link_state_selected" lang="en" href="#">
             Ru
-          </p>
-          <p class="header__lang-link" lang="en">
+          </a>
+          <a class="header__lang-link" lang="en" href="#">
             En
-          </p>
+          </a>
       </div>
     </header>
 
@@ -33,12 +33,12 @@
             <p class="lead__subtitle">
                 Настоящая страна не в выпусках новостей, а здесь.
             </p>
-            <div class="lead__card">
+            <figure class="lead__card">
                 <img class="lead__card-image" src="./images/lead-polka.jpg" alt="Пассажир в поезде">
-                <p class="lead__card-caption">
+                <figcaption class="lead__card-caption">
                     Ваша полка — верхняя
-                </p>
-            </div>
+                </figcaption>
+            </fogure>
         </section>
 
         <section class="intro">
@@ -55,7 +55,7 @@
             </p>
             <ul class="intro__list">
                 <li class="intro__line">
-                    <span class="intro__line-text intro__line-text_style_bold">
+                    <span class="intro__line-text intro__line-text_type_main">
                         Часовых поясов 
                     </span>
                     <span class="intro__line-text">
@@ -63,7 +63,7 @@
                     </span>
                 </li>
                 <li class="intro__line">
-                    <span class="intro__line-text intro__line-text_style_bold">
+                    <span class="intro__line-text intro__line-text_type_main">
                         Объектов природного наследия ЮНЕСКО 
                     </span>
                     <span class="intro__line-text">
@@ -71,7 +71,7 @@
                     </span>
                 </li>
                 <li class="intro__line">
-                    <span class="intro__line-text intro__line-text_style_bold">
+                    <span class="intro__line-text intro__line-text_type_main">
                         Объектов культурного наследия ЮНЕСКО 
                     </span>
                     <span class="intro__line-text">
@@ -79,7 +79,7 @@
                     </span>
                 </li>
                 <li class="intro__line">
-                    <span class="intro__line-text intro__line-text_style_bold">
+                    <span class="intro__line-text intro__line-text_type_main">
                         Природных заповедников 
                     </span>
                     <span class="intro__line-text">
@@ -87,7 +87,7 @@
                     </span>
                 </li>
                 <li class="intro__line">
-                    <span class="intro__line-text intro__line-text_style_bold">
+                    <span class="intro__line-text intro__line-text_type_main">
                         Аэропортов 
                     </span>
                     <span class="intro__line-text">
@@ -268,8 +268,7 @@
             </ul>
         </section>
 
-        <section class="baikal">
-            <img class="baikal__pic" src="./images/cover-trains.jpg" alt="Поезда">
+        <a class="baikal" href="#">
             <div class="baikal__container">
                 <h2 class="baikal__heading">
                     До Байкала «на собаках»
@@ -278,7 +277,7 @@
                     По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
                 </p>
             </div>
-        </section>
+        </a>
     </main>
 
         <footer class="footer">
