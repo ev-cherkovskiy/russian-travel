@@ -6,6 +6,8 @@
     text-transform: uppercase;
     margin: 0;
     padding-top: 8px;
+    align-self: flex-start;
+    /*width: 80%;*/
 }
 
 @media screen and (max-width: 768px) {

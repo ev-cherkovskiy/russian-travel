@@ -1,19 +1,25 @@
 .lead__card {
-    width: calc(100vw - 2*148px);
+    /*width: calc(100% - 2*148px);*/
+    width: 100%;
     min-width: 320px; /*ограничение на минимальный размер*/
 
     padding-top: 64px;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 0;
 }
 
-@media screen and (max-width: 1280px) {
+/*@media screen and (max-width: 1280px) {
     .lead__card {
-        width: 76.875vw;
+        width: 76.875%;
     }
-}
+}*/
 
 @media screen and (max-width: 1024px) {
     .lead__card {
-        width: 90.625vw;
+        /*width: 90.625%;*/
         padding-top: 56px;
     }
 }
